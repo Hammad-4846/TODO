@@ -1,0 +1,18 @@
+.card{
+    min-height: 400px;
+    background-color: red;
+    flex: wrap;
+    display: flex;
+    max-width: 500px;
+}
+
+.Todo__container{
+    width: 100%;
+}
+
+.top__section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}

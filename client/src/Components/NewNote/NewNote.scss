@@ -1,0 +1,59 @@
+.note-new {
+  background-color: var(--secondary__color);
+  color: var(--primary__color);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // white-space: pre-wrap;
+  color: white;
+  width: 350px;
+
+  .note-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    textarea {
+      width: 100%;
+      border: 1px solid gainsboro;
+      padding: 0.4rem;
+      border: none;
+    }
+  }
+
+  .note-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 0.4rem;
+
+    .note-sm-btn {
+      font-size: 0.8rem;
+      cursor: pointer;
+      padding: 0.6rem;
+
+      background-color: black;
+      color: white;
+
+      text-decoration: none;
+      border-radius: 0.3rem;
+    }
+  }
+
+  input {
+    width: 100%;
+    padding: 0.4rem;
+    outline: 0;
+    border: none;
+    font-size: 15px;
+
+    &::-webkit-input-placeholder {
+      font-weight: bold;
+      color: black;
+    }
+  }
+}
